@@ -4,12 +4,23 @@
 .row{
     background-color: #000000ff;
 }
+
 .card{
     background-color: #000000ff;
-    color: #ACABABff;
+}
+.navbar{
+    background-color: #ACABABff;
 }
 
 .card-text{
     margin-bottom: 0cm;
     margin-top: 0cm;
+}
+footer{
+    color: rgb(2, 2, 2);
+    background-color: #000000ff;
+}
+body{
+    color: rgb(2, 2, 2);
+    background-color: #000000ff;
 }
