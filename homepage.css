@@ -7,7 +7,9 @@
 
 .card{
     background-color: #000000ff;
-    color: #ACABABff;
+}
+.navbar{
+    background-color: #ACABABff;
 }
 
 .card-text{
@@ -15,6 +17,10 @@
     margin-top: 0cm;
 }
 footer{
-    color: #ACABABff;
-  
+    color: rgb(2, 2, 2);
+    background-color: #000000ff;
+}
+body{
+    color: rgb(2, 2, 2);
+    background-color: #000000ff;
 }
