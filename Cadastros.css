@@ -1,0 +1,35 @@
+.album{
+    background-color:#000000ff;
+}
+.row{
+    background-color: rgb(241, 235, 235);
+}
+
+.card{
+    background-color: #000000ff;
+}
+.navbar{
+    background-color: #ACABABff;
+}
+.container .p-2{
+    background-color: #ACABABff;
+}
+.p-2{
+    background-color: #ACABABff;
+}
+.card-text{
+    margin-bottom: 0cm;
+    margin-top: 0cm;
+}
+footer{
+    color: rgb(2, 2, 2);
+    background-color: #000000ff;
+}
+body{
+    color: rgb(2, 2, 2);
+    background-color: #000000ff;
+}
+button{
+    background-color: #FF9900ff;
+    margin-right: 1%;
+}
