@@ -64,8 +64,8 @@
       <p class="lead">Below is an example form built entirely with Bootstrap’s form controls. Each required form group has a validation state that can be triggered by attempting to submit the form without completing it.</p>
     </div>-->
 
-    <div class="row g-5">
-      <div class="col-md-5 col-lg-4 order-md-last">
+    <div class="row g-50">
+      <div class="col-md-5 col-lg-4 order-md-last" style="margin-bottom: 0px;">
         <!--<h4 class="d-flex justify-content-between align-items-center mb-3">
           <span class="text-primary">Your cart</span>
           <span class="badge bg-primary rounded-pill">3</span>
@@ -111,10 +111,14 @@
             <button type="submit" class="btn btn-secondary">Redeem</button>
           </div>
         </form>-->
-        <p><input type="file"  accept="image/*" name="image" id="file"  onchange="loadFile(event)" style="display: none;"></p>
-        <p><img id="output"/></p>
+        <center>
+        <p><input type="file"  accept="image/*" name="image" id="file" ontimeupdate="padrao" onchange="loadFile(event)" style="display: none;"></p>
+        <p><img id="output"/></p> 
         <p><label for="file" style="cursor: pointer;">Alterar Imagem</label></p>
+        </center>
           <script>
+             var padrao = document.getElementById('output');
+             padrao.src ="imagens/neymavatar.png";
             var loadFile = function(event) {
             var image = document.getElementById('output');
             image.src = URL.createObjectURL(event.target.files[0]);

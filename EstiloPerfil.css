@@ -20,8 +20,9 @@ input::-webkit-inner-spin-button {
     -o-border-radius: 100%;
     -webkit-border-radius: 100%;
     -moz-border-raidus: 100%;
-    max-width: 300px;
+    max-width: 250px;
     max-height: 250px; 
-    object-fit:contain;
-    
+    object-fit:cover;
+    width: 250px;
+    height: 250px;    
 }
