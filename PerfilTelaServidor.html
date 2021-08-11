@@ -131,7 +131,7 @@
         <h4 class="mb-3" style="margin-top: 20px;">Meu Perfil</h4>
         <form class="needs-validation" novalidate>
           <div class="row g-3">
-            <div class="col-sm-6">
+            <div class="col-sm-12">
               <label for="Name" class="form-label">Nome</label>
               <input type="text" class="form-control" id="firstName" placeholder="" value="" required>
               <div class="invalid-feedback">
@@ -140,10 +140,18 @@
             </div>
 
             <div class="col-sm-6">
-              <label for="RA" class="form-label">RA</label>
-              <input type="number" class="form-control" step = NULL id="lastName" placeholder="" value="" required>
+              <label for="NM" class="form-label">Número de Matricula</label>
+              <input type="number" class="form-control" step = NULL id="NM" placeholder="" value="" required>
               <div class="invalid-feedback">
-                Informe um RA valido, meu infrator.
+                Informe um Número valido, meu general.
+              </div>
+            </div>
+
+            <div class="col-sm-6">
+              <label for="Ramal" class="form-label">Ramal</label>
+              <input type="number" class="form-control" step = NULL id="ramal" placeholder="" value="" required>
+              <div class="invalid-feedback">
+                Informe um Ramal valido, meu infrator.
               </div>
             </div>
 
@@ -167,13 +175,21 @@
             </div>
 
             <div class="col-12">
-              <label for="curso" class="form-label">Curso</label>
-              <input type="text" class="form-control" id="curso" placeholder="" required>
+              <label for="cargo" class="form-label">Cargo</label>
+              <input type="text" class="form-control" id="cargo" placeholder="" required>
               <div class="invalid-feedback">
-                Informe um curso valido, meu diplomata.
+                Informe um cargo valido, meu diplomata.
               </div>
             </div>
           
+            <div class="col-12">
+              <label for="sala" class="form-label">Sala</label>
+              <input type="text" class="form-control" id="sala" placeholder="" required>
+              <div class="invalid-feedback">
+                Informe uma sala valida, meu ninja.
+              </div>
+            </div>
+
             <div class="col-12">
               <label for="phone" class="form-label">Telefone<span class="text-muted"> (DDD + 9 digitos)</span></label>
               <input type="number" class="form-control" id="phone" name="phone" placeholder="" value="" pattern="[0-9]{2}[9]{1}[0-9]{8}">
