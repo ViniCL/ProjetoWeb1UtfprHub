@@ -26,3 +26,18 @@ input::-webkit-inner-spin-button {
     width: 250px;
     height: 250px;    
 }
+
+.TextConsulta{
+
+    font-weight: bolder;
+    font-size: 100%;
+    color:aliceblue;
+    margin-top: -20px;
+}
+
+.TextInfoConsulta{
+    font-weight: bolder;
+    font-size: 140%;
+    color: #FF9900ff;
+
+}
