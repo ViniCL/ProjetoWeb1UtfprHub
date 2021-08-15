@@ -19,15 +19,17 @@ h4{
 }
 
 .navbar{
-    background-color: #ACABABff;
+    background-color: #1B1B1Bff;
+}
+.container-fluid{
+    background-color: #1B1B1Bff;
 }
 
-.container .p-2{
-    background-color: #ACABABff;
+.p-2 {
+    background-color: #1B1B1Bff;
+    color: #1B1B1Bff;
 }
-.p-2{
-    background-color: #ACABABff;
-}
+
 .card-text{
     margin-bottom: 0cm;
     margin-top: 0cm;
