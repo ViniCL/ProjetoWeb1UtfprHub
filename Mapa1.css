@@ -1,0 +1,101 @@
+.album{
+    background-color:#000000ff;
+}
+.row{
+    background-color: #1B1B1Bff;
+}
+input{
+    background-color: #1B1B1Bff;
+}
+
+.card{
+    background-color: #000000ff;
+}
+label{
+    color: rgb(253, 253, 253);
+}
+h4{
+    color: rgb(253, 253, 253);
+}
+
+.navbar{
+    background-color: #ACABABff;
+}
+
+.container .p-2{
+    background-color: #ACABABff;
+}
+.p-2{
+    background-color: #ACABABff;
+}
+.card-text{
+    margin-bottom: 0cm;
+    margin-top: 0cm;
+}
+footer{
+    color: rgb(2, 2, 2);
+    background-color: #000000ff;
+}
+body{
+    color: rgb(2, 2, 2);
+    background-color: #000000ff;
+}
+#buttonRegister{
+    background-color: #FF9900ff; 
+    color:#1B1B1Bff; 
+    font-weight: bold;
+    margin-bottom: 3%;
+}
+#buttonplus{
+    margin-right: 9px;
+    align-items: center;
+}
+.goup{
+    color: #ACABABff;
+}
+.text-muted{
+    margin-top: 5%;
+}
+.bodyclass{
+    background-color: #000000ff;
+    color: #ACABABff;
+
+}
+
+html{
+    color: #ACABABff;
+    background-color: #000000ff;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+#output{
+    border-radius: 100%;
+    -o-border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -moz-border-raidus: 100%;
+    max-width: 250px;
+    max-height: 250px; 
+    object-fit:cover;
+    width: 250px;
+    height: 250px;    
+}
+
+.TextConsulta{
+
+    font-weight: bolder;
+    font-size: 100%;
+    color:aliceblue;
+    margin-top: -20px;
+}
+
+.TextInfoConsulta{
+    font-weight: bolder;
+    font-size: 140%;
+    color: #FF9900ff;
+
+}
