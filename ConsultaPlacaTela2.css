@@ -17,7 +17,15 @@ label{
 h4{
     color: rgb(253, 253, 253);
 }
-
+td{
+    color: rgb(253, 253, 253);
+}
+th{
+    color: rgb(253, 253, 253);
+}
+h3{
+    color: rgb(253, 253, 253);
+}
 .navbar{
     background-color: #ACABABff;
 }
@@ -50,9 +58,4 @@ body{
     margin-right: 9px;
     align-items: center;
 }
-.goup{
-    color: #ACABABff;
-}
-.text-muted{
-    margin-top: 10%;
-}
+
