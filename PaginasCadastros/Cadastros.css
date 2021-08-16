@@ -71,3 +71,9 @@ body{
     height: 100px;    
     border-radius: 15px;
 }
+
+#inoutput{
+    object-fit:cover;
+    width: 500px;
+    height: 300px;    
+}
