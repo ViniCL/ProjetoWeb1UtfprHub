@@ -77,3 +77,35 @@ body{
     width: 500px;
     height: 300px;    
 }
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+#outputo{
+    border-radius: 100%;
+    -o-border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -moz-border-raidus: 100%;
+    max-width: 250px;
+    max-height: 250px; 
+    object-fit:cover;
+    width: 250px;
+    height: 250px;    
+}
+
+.TextConsulta{
+
+    font-weight: bolder;
+    font-size: 100%;
+    color:aliceblue;
+    margin-top: -20px;
+}
+
+.TextInfoConsulta{
+    font-weight: bolder;
+    font-size: 140%;
+    color: #FF9900ff;
+
+}
