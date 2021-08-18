@@ -87,7 +87,7 @@
                       <div class="col-12">
                         <label for="Description" class="form-label ">Descrição</label>
                         <div class="input-group">
-                          <input type="text" class="form-control" id="description" placeholder="" required>
+                          <input type="text" class="form-control" id="description" placeholder="" value="e" required>
                         <div class="invalid-feedback">
                             Your Description is required.
                           </div>
@@ -97,7 +97,23 @@
                     </div>
                 
                   </form>
-                </div><center><button id="buttonRegister" class="w-50 btn btn-lg btn-dark" type="submit">Cadastrar</button></center>
+                </div>
+                <center>
+                  <button id="buttonRegister" class="w-50 btn btn-lg btn-dark" type="submit" onclick="valForm()">Cadastrar</button>
+                </center>
+                  <script>
+                      function valForm() {
+                        if (document.getElementById('description').value == "") {
+                          alert("Preencha o campo de Descrição meu patinador!");
+                          return false;
+                        }
+                        if (document.getElementById('ID').value == "") {
+                          alert("Preencha o campo de ID meu confeiteiro!");
+                          return false;
+                        }
+                      }
+                  </script>
+               
               </div>
             </main>
 
