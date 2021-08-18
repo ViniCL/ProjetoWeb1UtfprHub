@@ -112,11 +112,14 @@ input::-webkit-inner-spin-button {
 
 }
 th{
-    color: white;
+    color: #FF9900ff;
 }
 tr{
     color: white;
 }
 td{
     color: white;
+}
+#laranja{
+    color: #FF9900ff;
 }
