@@ -140,7 +140,44 @@
                     </div>
                 
                   </form>
-                </div><center><button id="buttonRegister" class="w-50 btn btn-lg btn-dark" type="submit">Cadastrar</button></center>
+                </div>
+                <center>
+                  <button id="buttonRegister" class="w-50 btn btn-lg btn-dark" type="submit" onclick="valForm()">Cadastrar</button>
+                </center>
+                <script>
+                  function valForm() {
+                    if (document.getElementById('name').value == "") {
+                      alert("Preencha o campo de NOME meu astronauta!");
+                      return false;
+                    }
+                    if (document.getElementById('phone').value == "") {
+                      alert("Preencha o campo de TELEFONE meu ouvinte!");
+                      return false;
+                    }
+                    if (document.getElementById('ramal').value == "") {
+                      alert("Preencha o campo de RAMAL meu eletrodomestico!");
+                      return false;
+                    }
+                    if (document.getElementById('room').value == "") {
+                      alert("Preencha o campo de SALA meu saxofone!");
+                      return false;
+                    }
+                    if (document.getElementById('post').value == "") {
+                      alert("Preencha o campo de CARGO meu Imperador Otomano!");
+                      return false;
+                    }
+                    if (document.getElementById('numeroMatricula').value == "") {
+                      alert("Preencha o campo de NÚMERO DE MATRICULA meu agente secreto!");
+                      return false;
+                    }
+                    if (document.getElementById('email').value == "") {
+                      alert("Preencha o campo de EMAIL meu presidente!");
+                      return false;
+                    }
+
+
+                  }
+              </script>
               </div>
             </main>
 

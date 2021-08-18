@@ -112,7 +112,32 @@
                     </div>
                 
                   </form>
-                </div><center><button id="buttonRegister" class="w-50 btn btn-lg btn-dark" type="submit">Cadastrar</button></center>
+                </div>
+                <center>
+                  <button id="buttonRegister" class="w-50 btn btn-lg btn-dark" type="submit" onclick="valForm()">Cadastrar</button>
+                </center>
+                <script>
+                  function valForm() {
+                    if (document.getElementById('name').value == "") {
+                      alert("Preencha o campo de NOME meu astronauta!");
+                      return false;
+                    }
+                    if (document.getElementById('phone').value == "") {
+                      alert("Preencha o campo de TELEFONE meu ouvinte!");
+                      return false;
+                    }
+                    if (document.getElementById('CPF').value == "") {
+                      alert("Preencha o campo de CPF meu ser humaninho!");
+                      return false;
+                    }
+                    if (document.getElementById('email').value == "") {
+                      alert("Preencha o campo de EMAIL meu presidente!");
+                      return false;
+                    }
+
+
+                  }
+              </script>
               </div>
             </main>
 
