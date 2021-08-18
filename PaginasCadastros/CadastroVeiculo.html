@@ -124,7 +124,35 @@
                     </div>
                 
                   </form>
-                </div><center><button id="buttonRegister" class="w-50 btn btn-lg btn-dark" type="submit">Cadastrar</button></center>
+                </div>
+                <center>
+                  <button id="buttonRegister" class="w-50 btn btn-lg btn-dark" type="submit" onclick="valForm()">Cadastrar</button>
+                </center>
+                <script>
+                  function valForm() {
+                    if (document.getElementById('model').value == "") {
+                      alert("Preencha o campo de MODELO meu Pro Player!");
+                      return false;
+                    }
+                    if (document.getElementById('Type').value == "") {
+                      alert("Preencha o campo de TIPO meu médico!");
+                      return false;
+                    }
+                    if (document.getElementById('producer').value == "") {
+                      alert("Preencha o campo de FABRICANTE meu esmagador!");
+                      return false;
+                    }
+                    if (document.getElementById('color').value == "") {
+                      alert("Preencha o campo de COR meu deputado!");
+                      return false;
+                    }
+                    if (document.getElementById('plate').value == "") {
+                      alert("Preencha o campo de PLACA meu senador!");
+                      return false;
+                    }
+
+                  }
+              </script>
               </div>
             </main>
 
