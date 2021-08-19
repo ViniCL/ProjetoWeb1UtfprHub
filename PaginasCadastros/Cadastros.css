@@ -15,7 +15,7 @@ label{
     color: rgb(253, 253, 253);
 }
 h4{
-    color: rgb(253, 253, 253);
+    color: #FF9900ff;
 }
 
 .navbar{
@@ -41,6 +41,9 @@ footer{
 body{
     color: rgb(2, 2, 2);
     background-color: #000000ff;
+}
+label{
+    color: #FF9900ff;
 }
 #buttonRegister{
     background-color: #FF9900ff; 
