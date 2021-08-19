@@ -83,17 +83,6 @@ input::-webkit-inner-spin-button {
   margin: 0;
 }
 
-#outputo{
-    border-radius: 100%;
-    -o-border-radius: 100%;
-    -webkit-border-radius: 100%;
-    -moz-border-raidus: 100%;
-    max-width: 250px;
-    max-height: 250px; 
-    object-fit:cover;
-    width: 250px;
-    height: 250px;    
-}
 
 .TextConsulta{
 
