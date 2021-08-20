@@ -118,7 +118,8 @@
         </center>
           <script>
              var padrao = document.getElementById('output');
-             padrao.src ="imagens/neymavatar.png";
+             //padrao.src ="imagens/neymavatar.png";
+             padrao.src ="imagens/neytest.jpeg";
             var loadFile = function(event) {
             var image = document.getElementById('output');
             image.src = URL.createObjectURL(event.target.files[0]);
@@ -132,16 +133,16 @@
         <form class="needs-validation" novalidate>
           <div class="row g-3">
             <div class="col-sm-6">
-              <label for="Name" class="form-label">Nome</label>
-              <input type="text" class="form-control" id="firstName" placeholder="" value="" required>
+              <label class="pername" for="Name" class="form-label">Nome</label>
+              <input type="text" class="form-control" id="firstName" placeholder="" value="Neymar Junior" required>
               <div class="invalid-feedback">
                 Informe um nome valido, meu patriota.
               </div>
             </div>
 
             <div class="col-sm-6">
-              <label for="RA" class="form-label">RA</label>
-              <input type="number" class="form-control" step = NULL id="lastName" placeholder="" value="" required>
+              <label class="pername" for="RA" class="form-label">RA</label>
+              <input type="number" class="form-control" step = NULL id="lastName" placeholder="" value="2022696" required>
               <div class="invalid-feedback">
                 Informe um RA valido, meu infrator.
               </div>
@@ -159,24 +160,24 @@
             </div>-->
 
             <div class="col-12">
-              <label for="email" class="form-label">Email <span class="text-muted"></span></label>
-              <input type="email" class="form-control" id="email" placeholder="voce@exemplo.com">
+              <label class="pername" for="email" class="form-label">Email <span class="text-muted"></span></label>
+              <input type="email" class="form-control" id="email" placeholder="voce@exemplo.com" value="neymar@alunos.utfpr.edu.br">
               <div class="invalid-feedback">
                 Informe um e-mail valido, meu conselheiro.
               </div>
             </div>
 
             <div class="col-12">
-              <label for="curso" class="form-label">Curso</label>
-              <input type="text" class="form-control" id="curso" placeholder="" required>
+              <label class="pername" for="curso" class="form-label">Curso</label>
+              <input type="text" class="form-control" id="curso" placeholder="" value="Eng. de Software" required>
               <div class="invalid-feedback">
                 Informe um curso valido, meu diplomata.
               </div>
             </div>
           
             <div class="col-12">
-              <label for="phone" class="form-label">Telefone<span class="text-muted"> (DDD + 9 digitos)</span></label>
-              <input type="number" class="form-control" id="phone" name="phone" placeholder="" value="" pattern="[0-9]{2}[9]{1}[0-9]{8}">
+              <label class="pername" for="phone" class="form-label">Telefone<span class="text-muted"> (DDD + 9 digitos)</span></label>
+              <input type="number" class="form-control" id="phone" name="phone" placeholder="" value="46969242469" pattern="[0-9]{2}[9]{1}[0-9]{8}">
               <div class="invalid-feedback">
                 Informe um número valido, meu nobre.
               </div>
