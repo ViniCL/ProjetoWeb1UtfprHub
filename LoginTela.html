@@ -32,12 +32,25 @@
         <input type="checkbox" value="remember-me"> Lembrar Login
       </label>
     </div>-->
-    <button class="w-100 btn btn-lg btn-dark" type="submit" style="background-color: #FF9900ff; color:#1B1B1Bff; font-weight: bold;">Entrar</button>
+    <button class="w-100 btn btn-lg btn-dark" type="submit" style="background-color: #FF9900ff; color:#1B1B1Bff; font-weight: bold;" onclick="valForm()">Entrar</button>
     <p class="mt-5 mb-3 text-muted">&copy; Powered by Utfprhub 2021 </p>
   </form>
 </main>
 
+<script>
+  function valForm() {
+    if (document.getElementById('floatingInput').value == "") {
+      alert("Preencha o campo de EMAIL meu hacker!");
+      return false;
+    }
+    if (document.getElementById('floatingPassword').value == "") {
+      alert("Preencha o campo de SENHA meu vestibulando!");
+      return false;
+    }
 
+
+  }
+</script>
     
   </body>
 </html> 
