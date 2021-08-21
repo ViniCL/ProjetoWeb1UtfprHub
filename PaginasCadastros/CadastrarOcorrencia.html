@@ -102,9 +102,9 @@
                       </div>
                     
                       <center>
-                        <h2 style="color: #FF9900ff; margin-top: 24px;">Selecione o local onde a infração ocorreu</h2>
+                        <h2 style="color: #FF9900ff; margin-top: 24px;">Clique na estrada onde a infração ocorreu</h2>
                         <img class="img-responsive img-thumbnail" src="/imagens/mapaestacionamento.jpg" usemap="#image-map">
-            
+                        <p style="color: rgb(255, 255, 255); margin-top: 24px;">(Clique especificamente nas estradas da imagem)</p>
                         <map name="image-map">
                             <area target="" alt="Entrada1" title="Entrada 1" nohref coords="519,517,825,555" shape="rect" onclick="locloc(this.title)">
                             <area target="" alt="BlocoNovo" title="Bloco Novo" nohref coords="42,370,411,163,425,185,57,391" shape="poly" onclick="locloc(this.title)">
@@ -123,6 +123,7 @@
                     <div class="col-10 col-sm-8 col-md-6 col-lg-4 col-xl-2">
                       <div class="input-group has-validation">
                         <input type="text" class="form-control disable" id="local" placeholder="" value="" style="text-align: center; font-weight: bold;" disabled>
+                        
                       <div class="invalid-feedback">
                           Your text is required.
                         </div>
