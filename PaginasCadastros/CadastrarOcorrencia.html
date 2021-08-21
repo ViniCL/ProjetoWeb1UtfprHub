@@ -143,12 +143,33 @@
                             image.src = URL.createObjectURL(event.target.files[0]);
                             };
                           </script>
-
+                          <script>
+                            function valForm() {
+                              if (document.getElementById('plate').value == "") {
+                                alert("Preencha o campo de PLACA meu driblador!");
+                                return false;
+                              }
+                              if (document.getElementById('date').value == "") {
+                                alert("Preencha o campo de DATA meu dançarino!");
+                                return false;
+                              }
+                              if (document.getElementById('hour').value == "") {
+                                alert("Preencha o campo de HORA meu basqueteiro!");
+                                return false;
+                              }
+                              if (document.getElementById('observation').value == "") {
+                                alert("Preencha o campo de OBSERVAÇÃO meu escoteiro!");
+                                return false;
+                              }
+    
+          
+                            }
+                        </script>
 
 
                     </div>
                   </form>
-                </div><center><button id="buttonRegister" class="w-50 btn btn-lg btn-dark" type="submit">Registrar</button></center>
+                </div><center><button id="buttonRegister" class="w-50 btn btn-lg btn-dark" type="submit" onclick="valForm()">Registrar</button></center>
               </div>
             </main>
 

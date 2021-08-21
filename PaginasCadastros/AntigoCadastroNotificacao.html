@@ -138,12 +138,41 @@
                             image.src = URL.createObjectURL(event.target.files[0]);
                             };
                           </script>
-                      
+                          
                  
                     </div>
                 
                   </form>
                 </div><center><button id="buttonRegister" class="w-50 btn btn-lg btn-dark" type="submit">Cadastrar</button></center>
+
+                <script>
+                  function valForm() {
+                    
+                    if (document.getElementById('Estac').value == "") {
+                      alert("Preencha o campo de ESTACIONAMENTO meu entendedor do assunto!");
+                      return false;
+                    }
+                    if (document.getElementById('Placa').value == "") {
+                      alert("Preencha o campo de PLACA meu driblador!");
+                      return false;
+                    }
+                    if (document.getElementById('date').value == "") {
+                      alert("Preencha o campo de DATA meu dançarino!");
+                      return false;
+                    }
+                    if (document.getElementById('Hora').value == "") {
+                      alert("Preencha o campo de HORA meu basqueteiro!");
+                      return false;
+                    }
+                    if (document.getElementById('Obs').value == "") {
+                      alert("Preencha o campo de OBSERVAÇÃO meu escoteiro!");
+                      return false;
+                    }
+
+
+                  }
+              </script>
+
         </div>
             </main>
 
