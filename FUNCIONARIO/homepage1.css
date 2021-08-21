@@ -1,0 +1,35 @@
+.album{
+    background-color:#000000ff;
+}
+.container{
+    background-color:#000000ff;
+}
+.row{
+    background-color: #000000ff;
+}
+
+.card{
+    background-color: #000000ff;
+}
+.navbar{
+    background-color: #ACABABff;
+}
+
+.card-text{
+    margin-bottom: 0cm;
+    margin-top: 0cm;
+}
+footer{
+    color: rgb(2, 2, 2);
+    background-color: #000000ff;
+}
+body{
+    color: rgb(2, 2, 2);
+    background-color: #000000ff;
+}
+.goup{
+    color: #ACABABff;
+}
+.text-muted{
+    margin-top: 8%;
+}
