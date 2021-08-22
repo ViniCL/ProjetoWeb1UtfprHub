@@ -2,12 +2,14 @@
     background-color:#000000ff;
 }
 .row{
-    background-color: #1B1B1Bff;
+    background-color: rgb(0, 0, 0);
 }
 input{
     background-color: #1B1B1Bff;
 }
-
+.container{
+    background-color:#000000ff;
+}
 .card{
     background-color: #000000ff;
 }
@@ -108,4 +110,19 @@ input::-webkit-inner-spin-button {
     font-size: 140%;
     color: #FF9900ff;
 
+}
+th{
+    color: #FF9900ff;
+}
+tr{
+    color: white;
+}
+td{
+    color: white;
+}
+#laranja{
+    color: #FF9900ff;
+}
+p{
+    color: #FF9900ff;
 }
