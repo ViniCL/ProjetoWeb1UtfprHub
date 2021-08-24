@@ -23,7 +23,7 @@
       <h1 class="h3 mb-3 fw-normal" style="color:#FFFFFFff; font-weight: bold;">Digite seus dados</h1>
 
       <div class="form-floating">
-        <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+        <input type="email" class="form-control" id="floatingInput" pattern="/^[a-zA-Z0-9.!#$%&’*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/" placeholder="name@example.com">
         <label for="floatingInput" style="color:#1B1B1Bff;">Endereço de Email</label>
       </div>
       <div class="form-floating">
@@ -39,26 +39,18 @@
 
   <script>
     function valForm() {
-      if (document.getElementById('floatingInput').value == "") {
-        alert("Preencha o campo de EMAIL meu hacker!");
-        return false;
-      }
-      if (document.getElementById('floatingPasswordo').value == "") {
-        alert("Preencha o campo de SENHA meu vestibulando!");
-        return false;
-      }
-      if ((document.getElementById('floatingInput').value == "1") && (document.getElementById('floatingPasswordo').value == "1")) {
+
+      if ((document.getElementById('floatingInput').value == "snipes.wesley@gmail.com") && (document.getElementById('floatingPasswordo').value == "geladeira123")) {
         location.href = "DESEG/homepage.html";
         return false;
       }
-      if ((document.getElementById('floatingInput').value == "2") && (document.getElementById('floatingPasswordo').value == "2")) {
+      if ((document.getElementById('floatingInput').value == "daroncowhey@gmail.com") && (document.getElementById('floatingPasswordo').value == "tresdedoze150kg")) {
         location.href = "FUNCIONARIO/homepage.html";
         return false;
       }
-      if ((document.getElementById('floatingInput').value == "3") && (document.getElementById('floatingPasswordo').value == "3")) {
+      if ((document.getElementById('floatingInput').value == "neymar@alunos.utfpr.edu.br") && (document.getElementById('floatingPasswordo').value == "marquezine69")) {
         location.href = "ALUNO/Notificacoes.html";
         return false;
-        //Push
       }
       
     }
