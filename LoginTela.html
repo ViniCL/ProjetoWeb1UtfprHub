@@ -27,7 +27,7 @@
         <label for="floatingInput" style="color:#1B1B1Bff;">Endereço de Email</label>
       </div>
       <div class="form-floating">
-        <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+        <input type="password" class="form-control" id="floatingPasswordo" placeholder="Password">
         <label for="floatingPassword" style="color:#1B1B1Bff;">Senha</label>
       </div>
 
@@ -43,12 +43,23 @@
         alert("Preencha o campo de EMAIL meu hacker!");
         return false;
       }
-      if (document.getElementById('floatingPassword').value == "") {
+      if (document.getElementById('floatingPasswordo').value == "") {
         alert("Preencha o campo de SENHA meu vestibulando!");
         return false;
       }
-
-
+      if ((document.getElementById('floatingInput').value == "1") && (document.getElementById('floatingPasswordo').value == "1")) {
+        location.href = "DESEG/homepage.html";
+        return false;
+      }
+      if ((document.getElementById('floatingInput').value == "2") && (document.getElementById('floatingPasswordo').value == "2")) {
+        location.href = "FUNCIONARIO/homepage.html";
+        return false;
+      }
+      if ((document.getElementById('floatingInput').value == "3") && (document.getElementById('floatingPasswordo').value == "3")) {
+        location.href = "ALUNO/Notificacoes.html";
+        return false;
+      }
+      
     }
   </script>
 
